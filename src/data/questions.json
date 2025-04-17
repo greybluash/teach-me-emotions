@@ -1,0 +1,39 @@
+{
+  "start": {
+    "question": "How are you feeling right now?",
+    "options": ["Angry", "Sad", "Happy"],
+    "next": {
+      "Angry": "angry",
+      "Sad": "sad",
+      "Happy": "happy"
+    }
+  },
+  "angry": {
+    "question": "What made you angry?",
+    "options": ["Someone else", "Something happened", "I'm just stressed"],
+    "next": {
+      "Someone else": "someoneElse",
+      "Something happened": "somethingHappened",
+      "I'm just stressed": "stressed"
+    }
+  },
+  "sad": {
+    "question": "What's making you feel sad?",
+    "options": ["Loneliness", "Loss", "Disappointment"],
+    "next": {
+      "Loneliness": "lonely",
+      "Loss": "loss",
+      "Disappointment": "disappointment"
+    }
+  },
+  "happy": {
+    "question": "What made you feel happy?",
+    "options": ["A great experience", "A good conversation", "Achieving something"],
+    "next": {
+      "A great experience": "greatExperience",
+      "A good conversation": "goodConversation",
+      "Achieving something": "achieving"
+    }
+  }
+}
+
